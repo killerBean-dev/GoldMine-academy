@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>GoldMine Academy</title>
+    <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  </head>
+  <body style="font-family: sans-serif; padding: 20px;">
+    <h1>Welcome to GoldMine Academy</h1>
+    <p>Hello, <span id="username">loading...</span>!</p>
+    <p>You have <span id="coinCount">0</span> coins.</p>
+    <button id="claimCoinBtn">Claim 1 Coin</button>
+
+    <h2>Video Lessons</h2>
+    <div id="videoList">Loading...</div>
+
+    <h2>Quiz</h2>
+    <div id="quizQuestion">No quiz yet.</div>
+    <form id="quizForm">
+      <div id="quizOptions"></div>
+      <button type="submit">Submit Answer</button>
+    </form>
+    <div id="result"></div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
